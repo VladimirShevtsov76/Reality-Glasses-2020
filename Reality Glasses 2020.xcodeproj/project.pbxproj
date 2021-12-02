@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B1D11D312759210C00135DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D11D302759210C00135DEA /* AppDelegate.swift */; };
 		B1D11D332759210C00135DEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D11D322759210C00135DEA /* ContentView.swift */; };
-		B1D11D352759210C00135DEA /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B1D11D342759210C00135DEA /* Experience.rcproject */; };
 		B1D11D372759210E00135DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D11D362759210E00135DEA /* Assets.xcassets */; };
 		B1D11D3A2759210E00135DEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D11D392759210E00135DEA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		B1D11D2D2759210C00135DEA /* Reality Glasses 2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality Glasses 2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D11D302759210C00135DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1D11D322759210C00135DEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B1D11D342759210C00135DEA /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		B1D11D362759210E00135DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D11D392759210E00135DEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +53,6 @@
 			children = (
 				B1D11D302759210C00135DEA /* AppDelegate.swift */,
 				B1D11D322759210C00135DEA /* ContentView.swift */,
-				B1D11D342759210C00135DEA /* Experience.rcproject */,
 				B1D11D362759210E00135DEA /* Assets.xcassets */,
 				B1D11D382759210E00135DEA /* Preview Content */,
 			);
@@ -142,7 +139,6 @@
 			files = (
 				B1D11D332759210C00135DEA /* ContentView.swift in Sources */,
 				B1D11D312759210C00135DEA /* AppDelegate.swift in Sources */,
-				B1D11D352759210C00135DEA /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
