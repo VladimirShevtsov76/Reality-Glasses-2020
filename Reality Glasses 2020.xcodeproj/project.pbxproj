@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B18961902765DA9300333DC5 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B189618F2765DA9300333DC5 /* Experience.rcproject */; };
+		B18961922765DACE00333DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18961912765DACE00333DC5 /* LaunchScreen.storyboard */; };
+		B18961952765DFA100333DC5 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = B18961932765DFA100333DC5 /* Screenshot01.png */; };
+		B18961962765DFA100333DC5 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = B18961942765DFA100333DC5 /* Screenshot02.png */; };
+		B18961982765E09D00333DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18961972765E09D00333DC5 /* Assets.xcassets */; };
 		B1D11D312759210C00135DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D11D302759210C00135DEA /* AppDelegate.swift */; };
 		B1D11D332759210C00135DEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D11D322759210C00135DEA /* ContentView.swift */; };
-		B1D11D372759210E00135DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D11D362759210E00135DEA /* Assets.xcassets */; };
 		B1D11D3A2759210E00135DEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D11D392759210E00135DEA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B189618F2765DA9300333DC5 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		B18961912765DACE00333DC5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B18961932765DFA100333DC5 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		B18961942765DFA100333DC5 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		B18961972765E09D00333DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D11D2D2759210C00135DEA /* Reality Glasses 2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality Glasses 2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D11D302759210C00135DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1D11D322759210C00135DEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B1D11D362759210E00135DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D11D392759210E00135DEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -32,11 +40,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B189618A2765DA6700333DC5 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				B18961932765DFA100333DC5 /* Screenshot01.png */,
+				B18961942765DFA100333DC5 /* Screenshot02.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		B1D11D242759210C00135DEA = {
 			isa = PBXGroup;
 			children = (
-				B1D11D2F2759210C00135DEA /* Reality Glasses 2020 */,
 				B1D11D2E2759210C00135DEA /* Products */,
+				B1D11D2F2759210C00135DEA /* Reality Glasses 2020 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				B1D11D302759210C00135DEA /* AppDelegate.swift */,
+				B18961972765E09D00333DC5 /* Assets.xcassets */,
 				B1D11D322759210C00135DEA /* ContentView.swift */,
-				B1D11D362759210E00135DEA /* Assets.xcassets */,
+				B189618F2765DA9300333DC5 /* Experience.rcproject */,
+				B18961912765DACE00333DC5 /* LaunchScreen.storyboard */,
 				B1D11D382759210E00135DEA /* Preview Content */,
+				B189618A2765DA6700333DC5 /* Screenshots */,
 			);
 			path = "Reality Glasses 2020";
 			sourceTree = "<group>";
@@ -125,8 +145,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18961952765DFA100333DC5 /* Screenshot01.png in Resources */,
+				B18961922765DACE00333DC5 /* LaunchScreen.storyboard in Resources */,
 				B1D11D3A2759210E00135DEA /* Preview Assets.xcassets in Resources */,
-				B1D11D372759210E00135DEA /* Assets.xcassets in Resources */,
+				B18961962765DFA100333DC5 /* Screenshot02.png in Resources */,
+				B18961982765E09D00333DC5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +162,7 @@
 			files = (
 				B1D11D332759210C00135DEA /* ContentView.swift in Sources */,
 				B1D11D312759210C00135DEA /* AppDelegate.swift in Sources */,
+				B18961902765DA9300333DC5 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

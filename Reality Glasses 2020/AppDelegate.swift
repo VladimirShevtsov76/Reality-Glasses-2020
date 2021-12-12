@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Reality Glasses 2020
 //
-//  Created by Vladimir Shevtsov on 02.12.2021.
+//  Created by Vladimir Shevtsov on 03.11.2021.
 //
 
 import UIKit
